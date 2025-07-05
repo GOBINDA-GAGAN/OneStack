@@ -1,16 +1,17 @@
 {
-  "name": "OneStack",
-  "version": "1.0.0",
+  "name": "devnest",
+  "version": "3.4.2",
   "description": "CLI to create fullstack projects using React, Tailwind, and Express",
-  "main": "bin/OneStack.js",
+  "main": "bin/DevNest.js",
   "type": "module",
   "bin": {
-    "OneStack": "./bin/OneStack.js"
+    "DevNest": "./bin/DevNest.js"
   },
   "scripts": {
-    "start": "node bin/OneStack.js"
+    "start": "node bin/DevNest.js",
+    "postinstall": "node bin/DevNest.js"
   },
-  "keywords": ["cli", "vite", "tailwind", "express", "starter", "OneStack"],
+  "keywords": ["cli", "vite", "tailwind", "express", "starter", "DevNest"],
   "author": "Alok",
   "license": "MIT",
   "dependencies": {

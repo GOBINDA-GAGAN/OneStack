@@ -1,4 +1,4 @@
-# 🚀 Welcome to OneStack
+# 🚀 Welcome to DevNest
 
 Create fullstack project structure (React + Tailwind + Express) in one command ⚡
 
