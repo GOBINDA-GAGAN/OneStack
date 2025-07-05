@@ -1,6 +1,6 @@
 {
   "name": "devnest",
-  "version": "3.4.2",
+  "version": "3.4.4",
   "description": "CLI to create fullstack projects using React, Tailwind, and Express",
   "main": "bin/DevNest.js",
   "type": "module",
@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "node bin/DevNest.js",
-    "postinstall": "node bin/DevNest.js"
   },
   "keywords": ["cli", "vite", "tailwind", "express", "starter", "DevNest"],
   "author": "Alok",
