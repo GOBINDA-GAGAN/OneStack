@@ -1,0 +1,20 @@
+{
+  "name": "OneStack",
+  "version": "1.0.0",
+  "description": "CLI to create fullstack projects using React, Tailwind, and Express",
+  "main": "bin/OneStack.js",
+  "type": "module",
+  "bin": {
+    "OneStack": "./bin/OneStack.js"
+  },
+  "scripts": {
+    "start": "node bin/OneStack.js"
+  },
+  "keywords": ["cli", "vite", "tailwind", "express", "starter", "OneStack"],
+  "author": "Alok",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.7"
+  }
+}
